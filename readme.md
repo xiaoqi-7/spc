@@ -34,4 +34,4 @@ g++ -O3 -fopenmp -std=c++11 stspc.cpp -o run
   @2 number of pairs
   @3 query file name
   @4 tree-width allowed
-Note: `qd/` folder is necessary, the query pairs are stored in `qd/`. Details are shown in the code.
+Note: `qd/` folder is necessary, the generated query pairs are stored in `qd/`. Details are shown in the code.
