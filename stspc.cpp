@@ -199,11 +199,16 @@ int main(int argc, char *argv[]) {
                 argc>4?atoi(argv[4]):1                  /*n_threads*/
             );
             ct.save_tmp_graph(atoi(argv[3]));
-
-        }else if (strcmp(argv[1], "mq") == 0){
-            make_query(argv[2], atoi(argv[3]), argv[4], atoi(argv[5]));
-        }else if (strcmp(argv[1], "q") == 0){
-            query_count(argv[2], atoi(argv[3]), argv[4], atoi(argv[5]));
+        }else if (strcmp(argv[1], "make_queries") == 0){
+            make_query(argv[2],                         /*path*/
+                atoi(argv[3]),                          /*n_pairs*/
+                argv[4],                                /*filename*/
+                atoi(argv[5]));                         /*max_w*/
+        }else if (strcmp(argv[1], "query_spc") == 0){
+            query_count(argv[2],                        /*path*/
+                atoi(argv[3]),                          /*n_pairs*/
+                argv[4],                                /*filename*/
+                atoi(argv[5]));                         /*max_w*/
         }
     }
 
