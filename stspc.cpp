@@ -1,4 +1,4 @@
-#include "ctspc.h"
+#include "stspc.h"
 #include <fstream>
 
 void make_query(string path, int n_pairs, string filename, int max_w){
