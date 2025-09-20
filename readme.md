@@ -1,23 +1,35 @@
+### SPC Code: Shortest Path Counting Code
 
-1 compile:
+### compile:
 g++ -O3 -fopenmp -std=c++11 stspc.cpp -o run
+
 2 run
 1) txt-to-bin
 ./run txt-to-bin facebook/
 @1 path
+
 2) decompose_bt
-./run decompose_bt facebook/ 10 32
-@1 path
-@2 tree-width allowed
-@3 number of threads
-3) decompose_core
-./run decompose_core facebook/ 10 32
-@1 path
-@2 tree-width allowed
-@3 number of threads
-4) query
-./run query-dis facebook/ 10 100000
+./run decompose_bt facebook/ 5 32
 @1 path
 @2 tree-width allowed
 @3 number of threads
 
+3) decompose_core
+./run decompose_core facebook/ 5 32
+@1 path
+@2 tree-width allowed
+@3 number of threads
+
+4) make queries
+./run make_queries facebook/ 10 facebook 5
+@1 path
+@2 number of pairs
+@3 query file name
+@4 tree-width allowed
+
+5) query
+./run query_spc facebook/ 10 facebook 5
+@1 path
+@2 number of pairs
+@3 query file name
+@4 tree-width allowed
