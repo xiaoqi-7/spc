@@ -1,6 +1,6 @@
 
 1 compile:
-g++ -O3 -fopenmp -std=c++11 ctspc.cpp -o run
+g++ -O3 -fopenmp -std=c++11 stspc.cpp -o run
 2 run
 1) txt-to-bin
 ./run txt-to-bin fb/
