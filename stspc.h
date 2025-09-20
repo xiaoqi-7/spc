@@ -1,5 +1,5 @@
-#ifndef CTSPC_H_
-#define CTSPC_H_
+#ifndef STSPC_H_
+#define STSPC_H_
 
 #include <omp.h>
 #include <map>
