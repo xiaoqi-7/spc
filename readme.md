@@ -1,3 +1,4 @@
+
 1 compile:
 g++ -O3 -fopenmp -std=c++11 ctspc.cpp -o run
 2 run
