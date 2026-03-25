@@ -1,6 +1,4 @@
 ### Shortest Path Counting System
-
-### Shortest Path Counting System
 This project involves the development, implementation, testing, and optimisation of a software system supporting shortest path search functionality based on the technical methods described in the following publication:
 * Yiqi Wang, Long Yuan, Wenjie Zhang, Xuemin Lin, Zi Chen, Qing Liu, "Towards Efficient Shortest Path Counting on Billion-Scale Graphs", which published in ICDE2023.
 
