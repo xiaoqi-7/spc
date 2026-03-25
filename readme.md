@@ -1,4 +1,4 @@
-### SPC Code: Shortest Path Counting Code
+### SPC Code: Shortest Path Counting System
 
 ### compile:
 g++ -O3 -fopenmp -std=c++11 stspc.cpp -o run
